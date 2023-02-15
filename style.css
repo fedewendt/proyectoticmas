@@ -1,0 +1,107 @@
+/*archivo css*/
+
+
+/*formato del body*/
+body{background-color: grey;}
+
+
+/*formato de h1*/
+h1{
+    color: red;font-size: 25;font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+
+/*formato de h2*/
+h2{
+    color: deepskyblue;font-size: 20;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+
+/*formato de h3*/
+h3{
+    color:white;font-size: 20;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+/*formato parrafo*/
+p{
+    color: white;font-size: 22;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+
+}
+
+/*formato barra navegacion*/
+nav{
+    background-color: bisque;
+    font-size: 20;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    padding: 45;
+    border: 10;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    float: left;
+
+}
+
+
+/*formato formulario*/
+form{
+    text-align: center;
+    text-decoration: solid;
+}
+
+a{
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}
+
+
+/*formato imagen*/
+img{
+    display: block;
+    margin:auto;
+}
+
+
+/*@media*/
+@media screen and(min-width:480){
+    class-responsive{
+        width: 60%;
+        text-align: center;
+
+    }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+/*formato pie de pagina*/
+footer{
+    background-color: lightgreen;
+    font-family: Verdana;
+    font-size:14;
+    text-align: center;
+
+   
+
+}
+
+
+
+
+
