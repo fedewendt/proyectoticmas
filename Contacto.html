@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8"
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contacto</title>
+        <link rel="stylesheet" href="style.css"
+    </head>
+
+    <body>
+        <nav>
+            <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="Contacto.html">Contacto</a></li>
+            <li><a href="info.html">Quien soy</a></li>
+            </ul>
+            
+        </nav>
+
+        <header>
+            
+        </header>
+        <h1>Proyecto Examen Ticmas</h1>
+        <h2>Pagina de contacto</h2>
+        
+
+        <p>Esta pagina es donde podras dejar tus datos para poder contactarnos por mail o por telefono</p>
+        <br>
+        <br>
+        <h3>Formulario</h3>
+        <br>
+
+    <!--el formulario autocompleta datos del navegador-->
+        <form>
+            <label for=>Nombre:</label><br>
+            <input type="text" id="fname" name="Nombre" required value="Nombre" autocomplete>
+            <br>
+            <label for=>Apellido:</label><br>
+            <input type="text" id="fname" name="Apellido" required value="Apellido" autocomplete>
+            <br>
+            <label for=>Email:</label><br>
+            <input type="text" id="fname" name="Email" required value="E-Mail" autocomplete>
+            <br>
+            <label for=>Telefono:</label><br>
+            <input type="number" id="fname" name="Telefono" required value="0123456789" autocomplete>
+            <br>
+            <label for=>Consulta:</label><br>
+            <input type="text" id="fname" name="Consulta" required value="consulta">
+            <br>
+            <br>
+            <!--botones "enviar" y "restablecer" del formulario-->
+
+            <button onclick="enviar()">Enviar</button>
+
+            <script type="text/javascript" src="./function.js"></script>
+
+            <p id="enviar"></p>
+
+            <button type="reset">Restablecer</button><br>
+            <br>
+            <br>
+            <br>
+
+        
+        
+        </form>
+
+
+    </body>
+
+    
+    
+    
+    <footer>
+        <!--pie de pagina-->
+        Copyright: 2023. Reservado. 
+
+        
+    </footer>
+
+
+
+</html>
